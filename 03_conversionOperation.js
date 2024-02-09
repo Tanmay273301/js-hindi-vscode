@@ -20,7 +20,7 @@ console.log( valueInNumber)
 //undefined => undefined
 console.log("___________________________________________________________________________________________________________________________");
 
-let isLogged = "tanmay"
+let isLogged =  "tanmay"
 
 console.log(typeof isLogged);
 
@@ -46,3 +46,32 @@ let stringValue = String(someNumber)
 
 console.log(typeof stringValue );
 console.log(stringValue);
+
+// *******************************Operation*********************************************************************************
+console.log("************************************************Operation************************************************************");
+
+let value = 5
+let negValue = -value
+//console.log(negValue);
+
+    let str1 = "hello"
+    let str2 = " Tanmay"
+    let str3 = str1 + str2
+    //console.log(str3);
+
+    //console.log("1" + 2);
+    //console.log(1 + "2");
+    //console.log("1" + 2+3);
+    //console.log(1 + 2 + "3");
+    //console.log(1 + 2);
+
+   // console.log(+true);
+    //console.log(+"");
+    //console.log(+undefined);
+
+    let gameCounter = 200
+    //gameCounter++;  same output
+    ++gameCounter;
+    console.log(gameCounter);
+
+
