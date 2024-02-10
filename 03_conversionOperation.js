@@ -59,11 +59,11 @@ let negValue = -value
     let str3 = str1 + str2
     //console.log(str3);
 
-    //console.log("1" + 2);
-    //console.log(1 + "2");
-    //console.log("1" + 2+3);
-    //console.log(1 + 2 + "3");
-    //console.log(1 + 2);
+    //console.log("1" + 2); output => 12
+    //console.log(1 + "2");  output => 12
+    //console.log("1" + 2+3); output => 123
+    //console.log(1 + 2 + "3"); output => 33
+    //console.log(1 + 2);       output => 3
 
    // console.log(+true);
     //console.log(+"");
