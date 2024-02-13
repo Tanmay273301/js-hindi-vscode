@@ -32,6 +32,33 @@ console.log(typeof bigNumber); // undefined
 
 console.log(typeof heros); // object
 
+console.log("____________________________________________________________________________________________________");
+
+//******************************************************************************************************************************* */
+
+// Stack(primitive) & heap memory(non-primitive)
+
+let fullName = "Tanmay  Tripathi"
+let anotherName = fullName
+ anotherName = "Sohel"
+console.log(fullName);  // No change original value
+console.log(anotherName);
+console.log("______________________________________________________________________________________________________________________");
+
+// Heap memory
+
+let userOne = {
+    email: "user@google.com",
+    upi:   "user@ybl"
+
+}
+let userTwo = userOne
+userTwo.email = "tanmay@google.com"
+console.log(userOne); // change the original value
+console.log(userTwo);
+
+
+
 
 
 
