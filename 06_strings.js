@@ -28,7 +28,7 @@ console.log(newStringOne.trim()); // remove the starting & ending space
 
 
 const url = "https://tanmay.com/tanmay%10tripathi"
-console.log(url.replace('%10',"-"))
+console.log(url.replace('n',"&"))
 
 console.log(url.includes('sohel'));  // output is false
 
