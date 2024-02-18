@@ -44,6 +44,38 @@ function loginUserMessage(username ){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage("Tanmay"));// output = Tanmay just logged in
-console.log(loginUserMessage(""));// just logged in
-console.log(loginUserMessage());// undefined just logged in
+//console.log(loginUserMessage("Tanmay"));// output = Tanmay just logged in
+//console.log(loginUserMessage(""));// just logged in
+//console.log(loginUserMessage());// undefined just logged in
+
+function calculateCartPrice(...num1){ // rest function
+    return num1
+}
+//console.log(calculateCartPrice(200,1000,5879,4566)); // (4) [200, 1000, 5879, 4566]
+
+
+function calculateCartPrice1(val1,val2,...num1){ // rest function
+    return num1
+}
+//console.log(calculateCartPrice1(200,1000,5879,4566)); // (2) [5879, 4566]
+
+const user = {
+    username:"Tanmay Tripathi",
+    price: 999
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}.`);
+}
+
+handleObject(user)
+
+const myNewArray = [254,456,13,28]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
+
+
