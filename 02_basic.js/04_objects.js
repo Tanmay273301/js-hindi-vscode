@@ -20,7 +20,7 @@ const regularUser = {
 
 }
 
-console.log(regularUser.fullname.userFullname.firstname);
+//console.log(regularUser.fullname.userFullname.firstname);
 
 
 const obj1 = {
@@ -34,15 +34,38 @@ const obj2 = {
 }
 
 //const obj3 = {obj1,obj2}
-//const obj3 = Object.assign({},obj1,obj2)
+//const obj3 = Object.assign({},obj1,obj2)// target and source
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+//console.log(obj3);
 
-console.log(FacebookUser);
+//console.log(FacebookUser);
 
-console.log(Object.keys(FacebookUser));  // output =  ['id', 'name', 'isLoggedIn']
-console.log(Object.values(FacebookUser));// output =   (3) ['125abc', 'Tanmay Tripathi', false]
+//console.log(Object.keys(FacebookUser));  // output =  ['id', 'name', 'isLoggedIn']
+//console.log(Object.values(FacebookUser));// output =   (3) ['125abc', 'Tanmay Tripathi', false]
 
-console.log(Object.entries(FacebookUser));
+//console.log(Object.entries(FacebookUser));
 
-console.log(FacebookUser.hasOwnProperty('isLoggedIn'));// true
+//console.log(FacebookUser.hasOwnProperty('isLoggedIn'));// true
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Tanmay"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+//console.log(courseInstructor);
+
+console.log(instructor);
+
+// json
+
+//{
+   // "name": "Tanmay",
+   // "coursename": "js in hindi",
+   // "price":  "free"
+//}
+
